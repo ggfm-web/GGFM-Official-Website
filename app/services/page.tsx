@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <div className="bg-[#191919] text-white mt-12 pb-12 font-sans">
-      <div className="mx-auto min-h-screen max-w-6xl space-y-12">
+      <div className="mx-auto min-h-screen max-w-6xl px-6 space-y-12">
         <TitleSection />
         <hr className="border-[#363636]" />
         <ServicesContainer />

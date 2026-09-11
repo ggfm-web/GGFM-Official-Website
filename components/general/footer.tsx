@@ -24,7 +24,7 @@ export function Footer() {
             
             {/* 1. Scaled Up Logo (Centered Vertically) */}
             <div className="flex flex-col justify-center items-center xl:items-start shrink-0">
-              <div className="relative h-35.75 w-86.5">
+              <div className="relative h-32.25 w-78 lg:h-35.75 lg:w-86.5">
                 <Image
                   src="/assets/GGFM Logo_Black.png"
                   alt="DLSU Radio: Green Giant FM"
