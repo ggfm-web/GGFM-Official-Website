@@ -10,7 +10,7 @@ const TABLE_SONGS = "Hitlist Songs"
 const TABLE_VOTES = "Hitlist Votes"
 const TABLE_METADATA = "system_metadata"
 const ID_COLUMN = "target_id"
-const REFERENCE_MONDAY = new Date("2026-06-01T08:00:00+08:00")
+const REFERENCE_MONDAY = new Date("2026-10-12T08:00:00+08:00")
 
 // ==========================================
 //               HELPERS

@@ -13,7 +13,7 @@ const TABLE_VOTES = "Hitlist Votes"
 const TABLE_METADATA = "system_metadata"
 const TABLE_EXPORTS = "hitlist_exports"
 
-const REFERENCE_MONDAY = new Date("2026-02-02T08:00:00+08:00")
+const REFERENCE_MONDAY = new Date("2026-10-12T08:00:00+08:00")
 const TWO_WEEK_CYCLE_MS = 14 * 24 * 60 * 60 * 1000
 const MAX_STORED_EXPORTS = 2
 
