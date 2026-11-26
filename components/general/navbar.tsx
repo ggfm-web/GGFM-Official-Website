@@ -129,11 +129,11 @@ export function Navbar() {
                     href={item.path}
                     className={cn(
                       "relative text-2xl font-medium transition-colors hover:scale-105 hover:text-[#569429]",
-                      pathname === item.path && "text-[#569429]"
+                      linkActive(item.path) && "text-[#569429]"
                     )}
                   >
                     {item.name}
-                    {pathname === item.path && (
+                    {linkActive(item.path) && (
                       <motion.div
                         layoutId="navbar-indicator"
                         className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#569429]"

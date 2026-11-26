@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+  <defs>
+    <radialGradient id="glow-bloemen" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#569429" stop-opacity="0.28" />
+      <stop offset="55%" stop-color="#569429" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#111111" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid-bloemen" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="750" fill="#111111" />
+  <rect width="1200" height="750" fill="url(#grid-bloemen)" />
+  <rect width="1200" height="750" fill="url(#glow-bloemen)" />
+
+  <!-- Outer studio frame -->
+  <rect x="44" y="44" width="1112" height="662" rx="18" stroke="#363636" stroke-width="2" />
+
+  <!-- Concentric on-air frequency rings -->
+  <circle cx="600" cy="296" r="220" stroke="#363636" stroke-width="1.5" stroke-dasharray="6 10" />
+  <circle cx="600" cy="296" r="170" stroke="#569429" stroke-opacity="0.35" stroke-width="1.5" />
+  <circle cx="600" cy="296" r="120" stroke="#569429" stroke-opacity="0.55" stroke-width="2" />
+  <circle cx="600" cy="296" r="72" fill="#191919" stroke="#569429" stroke-width="2.5" />
+
+  <!-- ON AIR badge inside center -->
+  <rect x="536" y="276" width="128" height="40" rx="20" fill="#569429" />
+  <text x="600" y="302" text-anchor="middle" fill="#111111" font-family="sans-serif" font-size="16" font-weight="800" letter-spacing="3">ON AIR</text>
+
+  <!-- Broadcast console faders & waveform floor -->
+  <rect x="130" y="510" width="940" height="156" rx="14" fill="#191919" stroke="#363636" stroke-width="2" />
+  <line x1="170" y1="544" x2="1030" y2="544" stroke="#252525" stroke-width="2" />
+
+  <!-- Live signal waveform across console -->
+  <path d="M 170 582 L 220 582 L 238 552 L 256 612 L 274 538 L 292 622 L 310 560 L 328 594 L 348 582 L 410 582 L 430 534 L 450 628 L 470 522 L 490 636 L 510 550 L 530 608 L 550 582 L 620 582 L 642 544 L 664 618 L 686 530 L 708 630 L 730 554 L 752 602 L 774 582 L 850 582 L 872 556 L 894 608 L 916 540 L 938 620 L 960 566 L 982 592 L 1030 582" stroke="#569429" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Studio VU dots & centered plate label -->
+  <g fill="#D8CEAE" fill-opacity="0.7">
+    <circle cx="190" cy="638" r="4" />
+    <circle cx="212" cy="638" r="4" />
+    <circle cx="234" cy="638" r="4" fill="#569429" />
+    <circle cx="256" cy="638" r="4" fill="#569429" />
+    <circle cx="966" cy="638" r="4" fill="#569429" />
+    <circle cx="988" cy="638" r="4" fill="#569429" />
+    <circle cx="1010" cy="638" r="4" />
+  </g>
+  <text x="600" y="642" text-anchor="middle" fill="#D8CEAE" font-family="sans-serif" font-size="13" font-weight="700" letter-spacing="4">STUDIO A // BR. BLOEMEN HALL</text>
+</svg>

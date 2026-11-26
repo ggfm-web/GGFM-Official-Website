@@ -3,6 +3,7 @@ import { HeroSection } from "./_home-sections/hero-section"
 import { HitlistSection } from "./_home-sections/hitlist-section"
 import { RadioTalentSection } from "./_home-sections/radio-talent-section"
 import { DjHuntSection } from "./_home-sections/dj-hunt-section"
+import { WriteupsSection } from "./_home-sections/writeups-section"
 import { ServicesSection } from "./_home-sections/services-section"
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function HomePage() {
       <HitlistSection />
       <RadioTalentSection />
       <DjHuntSection />
+      <WriteupsSection />
       <ServicesSection />
     </main>
   );

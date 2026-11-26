@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+  <defs>
+    <linearGradient id="beam-left" x1="25%" y1="0%" x2="55%" y2="100%">
+      <stop offset="0%" stop-color="#569429" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#569429" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="beam-right" x1="75%" y1="0%" x2="45%" y2="100%">
+      <stop offset="0%" stop-color="#D8CEAE" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#D8CEAE" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="#111111" />
+  <rect x="44" y="44" width="1112" height="662" rx="18" stroke="#363636" stroke-width="2" />
+
+  <!-- Stage spotlight beams -->
+  <polygon points="240,46 660,704 160,704" fill="url(#beam-left)" />
+  <polygon points="960,46 1040,704 540,704" fill="url(#beam-right)" />
+
+  <!-- Truss lights -->
+  <circle cx="240" cy="68" r="10" fill="#569429" />
+  <circle cx="600" cy="68" r="10" fill="#D8CEAE" />
+  <circle cx="960" cy="68" r="10" fill="#569429" />
+
+  <!-- Vertical equalizer frequency bars -->
+  <g>
+    <rect x="148" y="460" width="38" height="190" rx="8" fill="#252525" stroke="#363636" stroke-width="1.5" />
+    <rect x="208" y="380" width="38" height="270" rx="8" fill="#569429" fill-opacity="0.45" />
+    <rect x="268" y="310" width="38" height="340" rx="8" fill="#569429" fill-opacity="0.7" />
+    <rect x="328" y="410" width="38" height="240" rx="8" fill="#252525" stroke="#363636" stroke-width="1.5" />
+    <rect x="388" y="240" width="38" height="410" rx="8" fill="#569429" />
+    <rect x="448" y="330" width="38" height="320" rx="8" fill="#D8CEAE" fill-opacity="0.75" />
+    <rect x="508" y="190" width="38" height="460" rx="8" fill="#569429" />
+    <rect x="568" y="275" width="38" height="375" rx="8" fill="#569429" fill-opacity="0.8" />
+    <rect x="628" y="210" width="38" height="440" rx="8" fill="#D8CEAE" />
+    <rect x="688" y="305" width="38" height="345" rx="8" fill="#569429" />
+    <rect x="748" y="365" width="38" height="285" rx="8" fill="#569429" fill-opacity="0.6" />
+    <rect x="808" y="255" width="38" height="395" rx="8" fill="#569429" />
+    <rect x="868" y="390" width="38" height="260" rx="8" fill="#252525" stroke="#363636" stroke-width="1.5" />
+    <rect x="928" y="335" width="38" height="315" rx="8" fill="#569429" fill-opacity="0.7" />
+    <rect x="988" y="455" width="38" height="195" rx="8" fill="#252525" stroke="#363636" stroke-width="1.5" />
+  </g>
+
+  <text x="1100" y="108" text-anchor="end" fill="#D8CEAE" font-family="sans-serif" font-size="14" font-weight="700" letter-spacing="4">LIVE COVERAGE // TAFT AVENUE</text>
+</svg>

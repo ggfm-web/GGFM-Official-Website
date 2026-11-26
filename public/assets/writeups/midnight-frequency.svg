@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+  <defs>
+    <radialGradient id="glow-tuner" cx="56%" cy="52%" r="48%">
+      <stop offset="0%" stop-color="#569429" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#111111" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="#111111" />
+  <rect width="1200" height="750" fill="url(#glow-tuner)" />
+  <rect x="44" y="44" width="1112" height="662" rx="18" stroke="#363636" stroke-width="2" />
+
+  <!-- Analog tuner chassis -->
+  <rect x="130" y="195" width="940" height="360" rx="24" fill="#191919" stroke="#363636" stroke-width="2.5" />
+  <rect x="175" y="245" width="850" height="170" rx="14" fill="#111111" stroke="#363636" stroke-width="2" />
+
+  <!-- Frequency scale ticks -->
+  <line x1="215" y1="330" x2="985" y2="330" stroke="#363636" stroke-width="2" />
+  <g stroke="#D8CEAE" stroke-opacity="0.65" stroke-width="2">
+    <line x1="230" y1="295" x2="230" y2="365" />
+    <line x1="290" y1="310" x2="290" y2="350" />
+    <line x1="350" y1="295" x2="350" y2="365" />
+    <line x1="410" y1="310" x2="410" y2="350" />
+    <line x1="470" y1="295" x2="470" y2="365" />
+    <line x1="530" y1="310" x2="530" y2="350" />
+    <line x1="590" y1="295" x2="590" y2="365" />
+    <line x1="650" y1="310" x2="650" y2="350" />
+    <line x1="710" y1="295" x2="710" y2="365" />
+    <line x1="770" y1="310" x2="770" y2="350" />
+    <line x1="830" y1="295" x2="830" y2="365" />
+    <line x1="890" y1="310" x2="890" y2="350" />
+    <line x1="950" y1="295" x2="950" y2="365" />
+  </g>
+
+  <!-- Frequency labels -->
+  <text x="230" y="280" text-anchor="middle" fill="#a8a8a8" font-family="monospace" font-size="14">88.3</text>
+  <text x="470" y="280" text-anchor="middle" fill="#a8a8a8" font-family="monospace" font-size="14">94.7</text>
+  <text x="710" y="280" text-anchor="middle" fill="#569429" font-family="monospace" font-size="15" font-weight="700">101.5</text>
+  <text x="950" y="280" text-anchor="middle" fill="#a8a8a8" font-family="monospace" font-size="14">107.9</text>
+
+  <!-- Glowing green tuner needle -->
+  <line x1="674" y1="252" x2="674" y2="408" stroke="#569429" stroke-width="5" stroke-linecap="round" />
+  <circle cx="674" cy="330" r="10" fill="#569429" />
+
+  <!-- Bottom tuner dials -->
+  <circle cx="290" cy="485" r="36" fill="#252525" stroke="#646464" stroke-width="2" />
+  <line x1="290" y1="485" x2="310" y2="462" stroke="#D8CEAE" stroke-width="3" stroke-linecap="round" />
+  <circle cx="910" cy="485" r="36" fill="#252525" stroke="#569429" stroke-width="2.5" />
+  <line x1="910" y1="485" x2="932" y2="470" stroke="#569429" stroke-width="3" stroke-linecap="round" />
+
+  <text x="600" y="492" text-anchor="middle" fill="#D8CEAE" font-family="sans-serif" font-size="16" font-weight="700" letter-spacing="5">MIDNIGHT FREQUENCY // 00:00–03:00</text>
+</svg>

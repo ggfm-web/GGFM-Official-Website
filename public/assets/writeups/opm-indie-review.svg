@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" fill="none">
+  <defs>
+    <radialGradient id="glow-vinyl" cx="40%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#D8CEAE" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#569429" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#111111" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="#191919" />
+  <rect width="1200" height="750" fill="url(#glow-vinyl)" />
+
+  <!-- Zine frame -->
+  <rect x="44" y="44" width="1112" height="662" rx="18" stroke="#363636" stroke-width="2" />
+
+  <!-- Record sleeve square on left -->
+  <rect x="130" y="135" width="440" height="480" rx="16" fill="#252525" stroke="#363636" stroke-width="2" />
+  <rect x="162" y="167" width="376" height="310" rx="8" fill="#111111" stroke="#363636" stroke-width="1.5" />
+  <path d="M 192 430 L 254 318 L 324 388 L 392 260 L 508 430 Z" fill="#569429" fill-opacity="0.25" stroke="#569429" stroke-width="2.5" />
+  <circle cx="430" cy="240" r="34" fill="#D8CEAE" fill-opacity="0.85" />
+  <text x="162" y="528" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="800" letter-spacing="2">TAFT AFTER HOURS</text>
+  <text x="162" y="562" fill="#D8CEAE" font-family="sans-serif" font-size="14" font-weight="600" letter-spacing="3">33 RPM // OPM INDIE LP</text>
+
+  <!-- Vinyl disc emerging from right of sleeve -->
+  <g transform="translate(760, 375)">
+    <circle r="245" fill="#111111" stroke="#363636" stroke-width="3" />
+    <circle r="222" stroke="#252525" stroke-width="2" />
+    <circle r="198" stroke="#2f2f2f" stroke-width="1.5" />
+    <circle r="174" stroke="#252525" stroke-width="2" />
+    <circle r="150" stroke="#2f2f2f" stroke-width="1.5" />
+    <circle r="126" stroke="#569429" stroke-opacity="0.4" stroke-width="2" />
+    <circle r="102" stroke="#252525" stroke-width="2" />
+    <!-- Center warm sand & green label -->
+    <circle r="76" fill="#D8CEAE" />
+    <circle r="64" stroke="#111111" stroke-width="1.5" stroke-dasharray="4 4" />
+    <circle r="36" fill="#569429" />
+    <circle r="11" fill="#111111" />
+  </g>
+
+  <!-- Tonearm geometry -->
+  <circle cx="1058" cy="148" r="28" fill="#252525" stroke="#646464" stroke-width="2" />
+  <path d="M 1058 148 L 1018 330 L 938 424" stroke="#D8CEAE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="920" y="416" width="32" height="16" rx="4" transform="rotate(-48 920 416)" fill="#569429" />
+</svg>
